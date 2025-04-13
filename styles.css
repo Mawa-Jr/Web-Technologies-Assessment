@@ -1,0 +1,93 @@
+body {
+    font-family: Arial,;
+	Font-size: 17.5px; 
+	text-align: center;
+	overflow: hidden;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.indexbox {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+	border: 2px solid #00796b;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+    top: 23.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	padding: 10px;
+}
+.mainbutton {
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.mainbutton:hover {
+    background-color: #bc6c25;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;  
+	margin-top: 50px;
+	max-width: 100%;
+	position: relative;
+	top: 47%;
+	transform: translate(-50, -50%)
+}
+.gridinfo {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 24px;
+    border: 2px solid #00796b;
+    margin-top: 25px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.icons {   
+    font-size: 25px; 
+}
+.question { 
+    padding: 20px;
+    text-align: left;
+	border: 2px solid #00796b;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button { 
+    background-color: #00796b;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;	
+	margin-top: 400px;	
+}
+button:hover {
+    background-color: #bc6c25
+}
+.result {
+    padding: 20px;
+   	text-align: center;
+	border: 2px solid #00796b;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
